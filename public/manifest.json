@@ -1,0 +1,42 @@
+{
+  "name": "Sabbagh Tex - Premium Textiles | Aleppo, Syria",
+  "short_name": "Sabbagh Tex",
+  "description": "Premium textile and fabric collections from Aleppo, Syria since 1990. Explore our winter, summer, premium, and decorative fabric collections.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#3B241C",
+  "theme_color": "#3B241C",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
+

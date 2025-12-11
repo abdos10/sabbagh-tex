@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SEO & Performance Enhancements */
+@layer base {
+  /* Smooth scrolling for better UX */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Optimize font rendering */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Ensure images are responsive and optimized */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Accessibility: Focus states */
+  *:focus-visible {
+    outline: 2px solid #FFD700;
+    outline-offset: 2px;
+  }
+}
